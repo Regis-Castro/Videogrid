@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #FEFCFF;
+  color: #373737;
+  display: grid;
+  font-family: 'Poppins', sans-serif;
+  grid: 
+  "header header" 0.13fr
+  "main advertising" 0.2fr
+  "main related" auto
+  / 0.55fr auto;
+}
+
+.main {
+  grid-area: main;
+  background-color: green;
+  height: 728px;
+}
+
+.advertising {
+  grid-area: advertising;
+  height: 163px;
+  background-color: purple;
+}
+
+.related {
+  background: yellow;
+  grid-area: related;
+  height: 566px;
+}
+
+
+/*711 + 61 = 772
+gap 45
+
+563 + 62 = 625*/
+
+

@@ -1,0 +1,54 @@
+.logo a::before{
+  content: "\f03d";
+  font-family:"fontawesome"; 
+  color: var(--primary-color, #865CBF);
+  font-size: 4.2rem;
+}
+
+header {
+  grid-area: header;
+  height: 84px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  margin: 17.5px 0 17.5px 58px;
+}
+
+.logo a {
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+}
+
+.logo h1 {
+  margin-left: 6px;
+}
+
+.search-bar {
+  align-items: center;
+  display: flex;
+}
+
+input[type="text"] {
+  font-size: 14px;
+  height: 38px;
+  width: 348px;
+}
+
+.search-bar button {
+  background-color: var(--secondary-color, #373737);
+  height: 44px;
+  width: 62px;
+}
+
+.search-bar button::after {
+  content: '\f002';
+  font-family: "fontawesome";
+  color: var(--button-color, #F5F5F5);
+  font-size: 2.3rem;
+}
+
+
+
