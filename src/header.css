@@ -9,11 +9,11 @@ header {
   grid-area: header;
   height: 84px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .logo {
-  margin: 17.5px 0 17.5px 58px;
+  margin: 17.5px 0 17.5px 0px;
 }
 
 .logo a {
@@ -49,6 +49,46 @@ input[type="text"] {
   color: var(--button-color, #F5F5F5);
   font-size: 2.3rem;
 }
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.upload::before, .apps::before, .notifications::before {
+  font-family: "fontawesome";
+  font-size: 2.3rem;
+  color: var(--secondary-color, #373737);
+}
+
+.upload::before {
+  content: '\f0f3';
+}
+
+.apps::before {
+  content: '\f84c';
+}
+
+.notifications::before {
+  content: '\f093';
+}
+
+.small-avatar {
+  background: url(../src/images/small-avatar.png) center center;
+  width: 33px;
+  height: 33px;
+}
+
+
+
+
+
+
+
+
 
 
 
