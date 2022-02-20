@@ -6,38 +6,41 @@ html {
 
 body {
   background-color: #FEFCFF;
-  color: #373737;
+  color: var(--secondary-color);
+  column-gap: 45px;
   display: grid;
   font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   grid: 
   "header header" 0.13fr
   "main advertising" 0.2fr
   "main related" auto
   / 0.55fr auto;
+  margin: 0 auto;
+  max-width: 1440px;
+  
+}
+
+header {
+  grid-area: header;
+  max-width: 1318px;
 }
 
 .main {
   grid-area: main;
-  background-color: green;
   height: 728px;
 }
 
 .advertising {
   grid-area: advertising;
-  height: 163px;
-  background-color: purple;
+  height: 119px;
+  width: 563px;
 }
 
 .related {
-  background: yellow;
   grid-area: related;
   height: 566px;
+  width: 563px;
 }
-
-
-/*711 + 61 = 772
-gap 45
-
-563 + 62 = 625*/
 
 

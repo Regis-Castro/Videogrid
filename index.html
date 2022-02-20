@@ -1,53 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="src/reset.css">
-  <script src="https://kit.fontawesome.com/6714d36dba.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="src/variables.css">
-  <link rel="stylesheet" href="src/header.css">
-  <link rel="stylesheet" href="src/style.css">
-  <!-- <link rel="stylesheet" href="src/all.css"> Testei com este link e a lupa nem apareceu -->
-  <link rel="stylesheet" href="src/responsive.css">
-  
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/variables.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/header.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  <link rel="stylesheet" href="src/css/advertising-related.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+
   <title>Videogrid</title>
 </head>
 
 <body>
   <header>
     <div class="logo">
-     <a href="index.html"><h1>Videogrid</h1></a> 
+      <a href="index.html">
+        <img src="src/images/camera.svg" alt="camera da logo">
+        <h1>Videogrid</h1>
+      </a>
     </div>
 
     <div class="search-bar">
       <input type="text" placeholder="Pesquisar">
-      <button> <!--<i class="fa-thin fa-magnifying-glass"></i>--> </button>
+      <button><img src="src/images/magnifying-glass.svg" width="21px" alt="lupa de pesquisa"></button>
     </div>
 
     <div class="menu">
-      <a href="#" class="notifications"></a>
-      <a href="#" class="apps"></a>
-      <a href="#" class="upload"></a>
-      <a href="#" class="small-avatar"></a>
+      <a href="#upload"><img src="src/images/upload.svg" alt="subir vídeo"></a>
+
+      <a href="#apps"><img src="src/images/apps.svg" alt="aplicativos"></a>
+
+      <a href="#notifications"><img src="src/images/notifications.svg" alt="notificações"></a>
+
+      <a href="#profile"><img src="src/images/small-avatar.png" alt="avatar de perfil"></a>
     </div>
-    
   </header>
 
-  
-  <section class="main">
 
+  <section class="main">
+    <div class="main-video">
+      <div>
+        <img src="src/images/player.png" alt="vídeo principal">
+      </div>
+      <h2>Música relaxante com sons da natureza</h2>
+      <div class="main-video-infos">
+        <div class="views-date">
+          <span>15 mil visualizações</span>
+          <span>•</span>
+          <span>04 de dez. de 2021</span>
+        </div>
+
+        <div class="likes-share">
+          <div class="click like">
+            <img src="src/images/like.svg" alt="like"><span>12 mil</span>
+          </div>
+          <div class="click dislike">
+            <img src="src/images/dislike.svg" alt="dislike"><span>NÃO GOSTEI</span>
+          </div>
+
+          <div class="click share">
+            <img src="src/images/share.svg" alt="compartilhar"><span>COMPARTILHAR</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="channel">
+        <div class="uploader">
+          <a href="#channel">
+            <img src="src/images/avatar.png" alt="avatar do canal">
+            <h2>Regis de Castro</h2>
+          </a>
+        </div>
+        <button>INSCREVER-SE</button>
+      </div>
+
+      <p>Ouça uma suave melodia, que entrelaçada aos sons da natureza, desperta no ouvinte a sensação da mais serena
+        plenitude. Feche os seus olhos para meditar, ou, se preferir, contemple as belas paisagens que lhes serão
+        apresentadas.</p>
+    </div>
   </section>
 
   <section class="advertising">
-
+    <a href="#nike"><img src="src/images/advertising.png" alt="propaganda da nike"></a>
   </section>
 
   <section class="related">
-      
-  </section>
+    <div class="related-video">
+      <a href="#megacities">
+        <img src="src/images/megacities.png" alt="megacidades">
+      </a>
+      <div class="related-video-infos">
+        <a href="#megacities">
+          <h2>Megacidades e Cidades Globais</h2>
+        </a>
+        <div>
+          <a href="#melissa-cosmopolita">
+            <p>Melissa Cosmopolita</p>
+          </a>
+          <p>21 mil visualizações</p>
+          <p>há 2 semanas</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="related-video">
+      <a href="#digital-marketing"><img src="src/images/digital-marketing.png" alt="megacidades"></a>
+      <div class="related-video-infos">
+        <a href="#digital-marketing">
+          <h2>Como começar no Marketing Digital</h2>
+        </a>
+        <div>
+          <a href="#suelem-lamim">
+            <p>Suelem Lamim</p>
+          </a>
+          <p>23 mil visualizações</p>
+          <p>Há 3 semanas</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="related-video">
+      <a href="#best-cars"><img src="src/images/best-cars.png" alt="melhores carros"></a>
+      <div class="related-video-infos">
+        <a href="#best-cars">
+          <h2>Os melhores carros esportivos</h2>
+        </a>
+        <div>
+          <a href="#carros-de-luxo">
+            <p>Carros de luxo</p>
+          </a>
+          <p>10 mil visualizações</p>
+          <p>Há 2 semanas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 </body>
+
 </html>

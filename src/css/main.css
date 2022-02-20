@@ -1,0 +1,92 @@
+.main {
+  margin-left: 62px;
+}
+
+.main-video h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 15px 0 8px;
+}
+
+.main p {
+  font-size: 1.4rem;
+  line-height: 25px;
+  margin-top: 26px;
+}
+
+.main-video-infos {
+  border-bottom: 1px solid #DFD9E9;
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: space-between;
+  padding-bottom: 21px;
+}
+
+.views-date {
+  width: 42%;
+}
+
+.views-date, .likes-share {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.click {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.likes-share {
+  width: 49%;
+}
+
+.likes-share span {
+  margin-left: 5px;
+}
+
+.channel {
+  display: flex;
+  margin-top: 18px;
+  justify-content: space-between;
+}
+
+.channel h2 {
+  font-size: 1.6rem;
+}
+
+.channel button {
+  background-color: var(--primary-color, #865CBF);
+  border: none;
+  color: var(--button-color, #F5F5F5);
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 500;
+  height: 41px;
+  transition: .3s;
+  width: 133px;
+}
+
+.channel button:hover {
+background-color: #6E4D99;
+border-radius: 2px;
+box-shadow: 0px 10px 25px rgba(194, 167, 230, 0.8);
+}
+
+.uploader {
+  width: 26%;
+}
+
+.uploader a {
+  color: var(--secondary-color, #373737);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+

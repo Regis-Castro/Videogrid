@@ -1,0 +1,83 @@
+header {
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 62px;
+}
+
+.logo {
+  display: flex; 
+  margin: 17.5px 0px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+
+.logo h1 {
+  color: var(--secondary-color, #373737);
+  margin: 16px 0 0 12px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.search-bar {
+  align-items: center;
+  display: flex;
+}
+
+input[type="text"] {
+  border: solid 1px #979797;
+  font-size: 14px;
+  height: 38px;
+  width: 348px;
+}
+
+.search-bar button {
+  background-color: #979797;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  height: 42px;
+  transition: .1s;
+  width: 62px;
+}
+
+.search-bar button:hover {
+  background-color: var(--secondary-color);
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+
+.menu img[alt="subir vídeo"]:hover {
+  content: url("../images/upload-fill.svg");
+}
+
+.menu img[alt="aplicativos"]:hover {
+  content: url("../images/apps-fill.svg");
+}
+
+.menu img[alt="notificações"]:hover {
+  content: url("../images/notifications-fill.svg");
+}
+
+
+
+
+
+
+
+
+
+
+
