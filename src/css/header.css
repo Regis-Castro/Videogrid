@@ -1,13 +1,11 @@
 header {
-  height: 84px;
   display: flex;
   justify-content: space-between;
-  margin-left: 62px;
+  padding: 1% 0;
 }
 
 .logo {
   display: flex; 
-  margin: 17.5px 0px;
 }
 
 .logo a {
@@ -55,9 +53,8 @@ input[type="text"] {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 180px;
+  width: 11%;
 }
-
 
 .menu img[alt="subir vídeo"]:hover {
   content: url("../images/upload-fill.svg");
@@ -70,6 +67,13 @@ input[type="text"] {
 .menu img[alt="notificações"]:hover {
   content: url("../images/notifications-fill.svg");
 }
+
+.show-on-mobile {
+  display: none;
+}
+
+
+
 
 
 

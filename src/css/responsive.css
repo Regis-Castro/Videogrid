@@ -1,0 +1,370 @@
+@media (max-width: 1440px) {
+  body {
+    margin: 1.5% 1.5% 0 1.5%;
+  }
+}
+
+@media (max-width: 1280px) {
+  body {
+    grid: 
+      "header"
+      "main" 
+      "advertising" 
+      "related" 
+  }
+
+  .menu {
+    width: 16%;
+  }
+
+  .video {
+    display: flex; 
+    justify-content: center;
+    margin: 3% 0;
+  }
+
+  .title {
+    display: flex;
+    justify-content: flex-end;
+    width: 50.6%;
+  }
+
+  .main-video-infos, .channel, .main-video p {
+    margin: 1% auto;
+    width: 57.7%;
+  }
+
+  .advertising {
+    margin: 4% auto;
+  }
+
+  .related {
+    margin: 0 auto;
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .main-video-infos, .channel, .main-video p {
+    width: 71.5%;
+  }
+}
+
+
+
+@media (max-width: 834px) {
+  .main-video-infos, .channel, .main-video p {
+    width: 88%;
+  }
+
+  .menu {
+    width: 18%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .title {
+    width: 50.9%;
+  }
+
+  .views-date {
+    margin-left: 1%;
+  }
+
+  .main-video-infos, .channel, .main-video p {
+    width: 97.5%;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .menu {
+    width: 30%;
+  }
+
+  .show-on-mobile {
+    display: block;
+  }
+
+  .video img {
+    width: 90%;
+  }
+
+  .title {
+    width: 67.3%;
+  }
+
+  .main-video-infos, .channel, .main-video p {
+    justify-content: space-around;
+  }
+
+  .main-video-infos {
+    display: block;
+  }
+
+  .main-video p {
+    width: 90%;
+  }
+
+  .views-date, .likes-share {
+    justify-content: space-between;
+    margin-left: 4%;
+  }
+
+  .views-date {
+    margin-bottom: 2%;
+    width: 52%;
+  }
+
+  .likes-share {
+    font-size: 1.2rem;
+    width: 60%;
+  }
+
+  .channel {
+    justify-content: space-between;
+    margin-top: 21px;
+    width: 90%;
+  }
+
+  .uploader {
+    width: 34%;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  .menu {
+    width: 41%;
+  }
+  
+  .main-video h2 {
+    font-size: 1.7rem;
+    justify-content: flex-start;
+    margin-left: 5%;
+    width: 100%;
+  }
+
+  .views-date {
+    width: 70%;
+  }
+
+  .likes-share {
+    width: 80%;
+  }
+
+  .uploader {
+    width: 60%;
+  }
+
+  .related-video-infos h2 {
+    font-size: 1.4rem;
+  }
+}
+
+
+
+@media (max-width: 414px) {
+  body {
+    margin: 3% 4%;
+  }
+
+  header {
+    margin-bottom: 3%;
+  }
+  
+  .menu {
+    width: 42%;
+  }
+
+  .video img {
+    width: 100%;
+  }
+
+  .main-video h2 {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  .main-video p {
+    width: 100%;
+  }
+
+  .main-video-infos {
+    margin: auto 0;
+  }
+
+  .views-date, .likes-share {
+    font-size: 1.2rem;
+    margin-left: 0;
+  }
+
+  .views-date {
+    justify-content: space-between;
+    margin-bottom: 2%;
+    width: 70%;
+  }
+
+  .likes-share {
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+
+  .channel {
+    width: 100%;
+    margin-bottom: 4%;
+  }
+
+  .uploader h2 {
+    margin-left: 2%;
+  }
+
+
+  .related-video-infos h2 {
+    font-size: 1.3rem;
+  }
+
+  .related-video-infos {
+    margin-left: 2%;
+  }
+
+  .related-video-infos a p,
+  .related-video-infos div p:nth-child(2),
+  .related-video-infos div p:nth-child(3) {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+@media (max-width: 393px) {
+  .menu {
+    width: 44%;
+  }
+
+  .views-date {
+    width: 85%;
+  }
+
+  .main-video p {
+    margin-top: 4%;
+  }
+}
+
+
+
+@media (max-width: 384px) {
+  header {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .main-video h2 {
+    margin-left: 0% ;
+    font-size: 1.4rem;
+  }
+
+  .views-date {
+    width: 70%;
+    margin-left: 0%;
+  }
+
+  .uploader {
+    width: 76%;
+  }
+
+  .advertising {
+   height: auto;
+  }
+
+  .related-video {
+    margin-top: 8%;
+  }
+
+  .related-video a img{
+    width: 150px;
+  }
+
+  .related-video p, .related-video h2 {
+    margin-top: 0
+  } 
+}
+
+
+
+@media (max-width: 375px) {
+  .views-date {
+    width: 72%;
+  }
+
+  .channel h2 {
+   margin-left: 2%;;
+  }
+}
+
+
+
+@media (max-width: 360px) {
+  .views-date {
+    width: 74%;
+  }
+
+  .related-video-infos a p,
+  .related-video-infos div p:nth-child(2),
+  .related-video-infos div p:nth-child(3) {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .menu {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .main-video h2 {
+    margin-left: 2% ;
+    font-size: 1.4rem;
+  }
+
+  .views-date {
+    width: 85%;
+    margin-left: 2%;
+  }
+
+  .uploader {
+    width: 76%;
+  }
+
+  .advertising {
+   height: auto;
+  }
+
+  .related-video a img{
+    width: 150px;
+  }
+
+  .related-video p, .related-video h2 {
+    margin-top: 0
+  } 
+}

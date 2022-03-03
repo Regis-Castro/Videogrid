@@ -1,17 +1,13 @@
-.main {
-  margin-left: 62px;
+.main p {
+  font-size: 1.4rem;
+  line-height: 25px;
+  margin-top: 26px;
 }
 
 .main-video h2 {
   font-size: 1.8rem;
   font-weight: 500;
   margin: 15px 0 8px;
-}
-
-.main p {
-  font-size: 1.4rem;
-  line-height: 25px;
-  margin-top: 26px;
 }
 
 .main-video-infos {

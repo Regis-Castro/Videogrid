@@ -12,35 +12,29 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   grid: 
-  "header header" 0.13fr
-  "main advertising" 0.2fr
-  "main related" auto
-  / 0.55fr auto;
+    "header header" 0.13fr
+    "main advertising" 0.2fr
+    "main related" auto
+    / 0.55fr auto;
   margin: 0 auto;
   max-width: 1440px;
-  
 }
 
 header {
   grid-area: header;
-  max-width: 1318px;
 }
 
 .main {
   grid-area: main;
-  height: 728px;
 }
 
 .advertising {
   grid-area: advertising;
   height: 119px;
-  width: 563px;
 }
 
 .related {
   grid-area: related;
-  height: 566px;
-  width: 563px;
 }
 
 
