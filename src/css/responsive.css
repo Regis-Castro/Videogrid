@@ -243,6 +243,10 @@
   .related-video-infos div p:nth-child(3) {
     font-size: 1.2rem;
   }
+
+  .related-video-infos {
+    margin-left: 3%;
+  }
 }
 
 
